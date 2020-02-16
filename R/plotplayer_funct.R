@@ -1,3 +1,4 @@
+#' create a barplot with values
 #' @description this function enables to visualize graphically the performace of a single player in the season considered in the dataset
 #' @param id character. the name of the player you're interested in
 #' @return barplot
