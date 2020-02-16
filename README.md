@@ -37,7 +37,7 @@ totalscore("")
 
 ### plotplayer
 
-The function `plotplayer()` creates a barplot that enables to visualize the different performances of the selected player in terms of score during the seasons considered in the datased
+The function `plotplayer()` creates a barplot that enables to visualize the different performances of the selected player in terms of score during the seasons considered in the dataset
 
 ```R
 plotplayer()
