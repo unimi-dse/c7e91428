@@ -1,6 +1,6 @@
 # Ciccio Package
 
-This package provides a dataset of 14 columns and 6 rows. The aim of the functions contained in the package is to analyze the performances of italian championship's top scorers. 
+This package provides a dataset of 14 columns and 6 rows. The aim of the functions contained in the package is to analyze the performances of italian championship's top scorers in the last six seasons.
 
 ## Installation
 
@@ -16,7 +16,7 @@ devtools::install_github('unimi-dse/c7e91428')
 
 ```R
 # load the package
-library(airlinesafety)
+library(ciccio)
 ```
 
 ### getdata
