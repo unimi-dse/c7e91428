@@ -10,9 +10,9 @@
 
 totalscore<- function(dataset=NULL, p="BELOTTI") {
   if (is.null(dataset)==TRUE)
-    (dataset<-ciccio::dataset)
-  else  (dataset<-dataset)
-  p <- toupper(p)
-  x <-sum(dataset[p])
+    dataset<-getdata()
+  else (dataset<-dataset)
+  x <-sum(dataset[[p]])
   return(x)
 }
+
